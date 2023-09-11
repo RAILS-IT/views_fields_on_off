@@ -56,7 +56,6 @@ class ViewsFieldsOnOffForm extends FieldPluginBase {
       '#title' => $this->t('@value', [
         '@value' => $label,
       ]),
-      '#description' => $this->t('Select the fields you want to display.'),
       '#options' => $options,
     ];
     if ($this->options['exposed_select_type'] == 'multi_select') {
